@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.SecondFragmentPractice.Main2Activity">
+
+    <FrameLayout
+        android:id="@+id/topFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@android:dimen/thumbnail_height"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorAccent">
+
+
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/btmFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@android:dimen/thumbnail_height"
+        android:layout_marginTop="40dp"
+        android:background="@color/design_default_color_primary">
+
+
+
+
+    </FrameLayout>
+
+</LinearLayout>
